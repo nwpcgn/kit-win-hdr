@@ -4,7 +4,7 @@
 
 <section class="page py-8">
 	<div class="w-full max-w-3xl mx-auto px-4 nwp">
-        <h1 class="">Header 1</h1>
+        <h1 class="">Hoerspiele</h1>
 		<h2>Welcome to your library project 2</h2>
         <h3>Just my enemies 3</h3>
 		<h4>

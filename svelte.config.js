@@ -8,7 +8,7 @@ const config = {
 			fallback: '200.html'
 		}),
 		paths: {
-			base: dev ? '' : '/rivera-page'
+			base: dev ? '' : '/build'
 		}
 	}
 }
