@@ -2,10 +2,9 @@
 	import 'virtual:windi.css'
 	import '../app.css'
 	import TopBar from '$lib/components/TopBar.svelte'
-	import PageTransition from '$lib/components/PageTransition.svelte';
+	import PageTransition from '$lib/components/PageTransition.svelte'
 	import { base } from '$app/paths'
 	export let data
-
 </script>
 
 <svelte:head>
@@ -23,5 +22,5 @@
 </TopBar>
 
 <main>
-<PageTransition pathname={data.pathname}><slot /></PageTransition>
+	<PageTransition pathname={data.pathname}><slot /></PageTransition>
 </main>
