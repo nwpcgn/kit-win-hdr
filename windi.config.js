@@ -86,7 +86,7 @@ export default defineConfig({
 		plugin(({ addComponents }) => {
 			const buttons = {
 				'.btn': {
-					padding: '.3rem 1rem',
+					padding: '.5rem 1rem',
 					borderRadius: '.25rem',
 					fontWeight: '600'
 				},
